@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+    background-color: royalblue;
+    
+}
+.page1{
+    width: 100%;
+    height: 100vh;
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.page1 .content{
+    width: 30vw;
+    padding: 1rem;
+    background-color: rebeccapurple;
+    color: white;
+    margin: 1rem 0;
+    border-radius: 10px;
+}
+.page1 .content img{
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    margin-bottom: 2rem;
+}
+.page1 .content #button{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rosybrown;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 1rem;
+}
+.page1 .nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page1 .nav-bar .bi{
+    display: inline-block;
+    font-size: 20px;
+}
+.page1 .content .task-content{
+   text-align: left;
+   padding: 15px;
+   display: flex;
+   flex-direction: column;
+}
+.page1 .content .task-content input{
+    padding: 8px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+}
+.task-content-page{
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;  
+}
+textarea{
+    outline: none;
+    padding: 5px;
+}
+.all-task{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.one-task{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5px 0;
+}
+.task-part span{ 
+    font-size: 11px;
+}
+.task-part h5{
+    margin-bottom: -5px;
+}
+.containers {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: black;
+  }
+  .toggle {
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contents {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
